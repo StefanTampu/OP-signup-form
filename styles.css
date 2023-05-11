@@ -8,6 +8,11 @@ html{
     font-size: 16px;
 }
 
+@font-face {
+    font-family: carpatin;
+    src: url(Resources/zamolxis-i-font/ZamolxisI-PGVd.ttf);
+}
+
 body {
     width: 100%;
     display: flex;
@@ -43,12 +48,18 @@ body {
     height: 100%;
 }
 
+#title-text {
+    font-family: carpatin, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
 #hero-credit {
     color: #ecf1f4;
     font-size: 1rem;
     position: absolute;
     bottom: 1%;
-    left: 60%;
+    right: 5%;
+    text-align: right;
 }
 
 #hero-credit a {
