@@ -117,6 +117,13 @@ label{
 
 input {
     font-size: 1rem;
+    border: 1px solid hsla(0, 100%, 0%, 0.2);
+    border-radius: 0.5rem;
+}
+
+input:focus{
+    outline: 2px solid #2a414f;
+    box-shadow: 0 0 3px 4px #a5c0c9;
 }
 
 form button {
@@ -129,8 +136,13 @@ form button {
     font-size: 1rem;
     padding: 0.75rem 3rem;
     border-radius: 0.5rem;
+    transition: 0.5s;
 }
 
+form button:hover{
+    box-shadow: 0 0 2px 4px #ecf1f4;
+    background-color: hsl(203, 31%, 34%);
+}
 
 /*Footer*/
 footer{
