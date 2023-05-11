@@ -15,37 +15,51 @@
         </div>
         <p id="hero-credit">Photo by <a href="https://unsplash.com/@bianca_fazacas" target="_blank">Bianca Fazacas</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
     </div>
-    <div>
+    <div id="content">
         <header>
             <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h2>
             <h2>You <em>know</em> you want to.</h2>
         </header>
         <main>
             <form action="" method="post">
-                <div>
-                    <label for="first-name">First Name</label>
-                    <input type="text" id="first-name">
-    
-                    <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name">
-                </div>
-                
-                <div>
-                    <label for="email">Email</label>
-                    <input type="text" id="email">
-    
-                    <label for="phone-number">Phone Number</label>
-                    <input type="text" id="phone-number">
-                </div>
-    
-                <div>
-                    <label for="password">Password</label>
-                    <input type="text" id="password">
-    
-                    <label for="confirm-password">Confirm Password</label>
-                    <input type="text" id="password">
-                </div>
-    
+                <div class="form-content">
+                    <h2>Let's do this!</h2>
+                    <fieldset>
+                        <div>
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>
+                        
+                        <div>
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email">
+                        </div>
+        
+                        <div>
+                            <label for="phone_number">Phone Number</label>
+                            <input type="text" id="phone_number" name="phone_number">
+                        </div>
+                    </fieldset>
+        
+                    <fieldset>
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="text" id="password" name="password">
+                        </div>
+        
+                        <div>
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="text" id="confirm_password" name="confirm_password">
+                        </div>
+                    </fieldset>
+                </div>    
                 <button type="submit">Create Account</button>
             </form>
         </main>
